@@ -1,0 +1,17 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#search-div, #menu-div, #notification-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image-size {
+    height:30px;
+}
+.youTubeLogo {
+   /* width: 150%;*/
+    height: 125%;
+}
