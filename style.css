@@ -3,15 +3,31 @@
     flex-direction: row;
     justify-content: space-between;
 }
-#search-div, #menu-div, #notification-div {
+
+#search-div{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.image-size {
-    height:30px;
+
+#search {
+    width: 40em;
+    padding: 10px;
 }
+
+#menu-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
 .youTubeLogo {
-   /* width: 150%;*/
-    height: 125%;
+    display: flex;
+    height: 100%;
 }
+
+.line-space {
+    margin-right: 13px;
+}
+
+
