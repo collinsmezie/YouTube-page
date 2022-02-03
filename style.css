@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 #header{
     display: flex;
     flex-direction: row;
@@ -8,26 +14,59 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 10px;
 }
 
 #search {
-    width: 40em;
-    padding: 10px;
+    width: 410px;
+    padding: 11px;
+}
+
+.icon-size {
+    padding: 12px;
 }
 
 #menu-div {
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .youTubeLogo {
-    display: flex;
-    height: 100%;
+    height: 25px;
+    width: 100px;
+    margin-left: 25px;
 }
-
+    
 .line-space {
-    margin-right: 13px;
+    margin-right: 26px;
+    
 }
 
+#search-btn {
+    padding: 2px;
+}
+#btn {
+    border-radius: 50%;
+    border-style: none;
+    border-color: white;
+}
 
+#mic {
+    padding: 2px;
+}
+
+#notification-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pic {
+    margin-top: 10px;
+    height:30px;
+    width:30px;
+    border-radius:50px;
+}

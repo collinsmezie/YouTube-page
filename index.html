@@ -5,23 +5,30 @@
         <title>YouTube UI</title>
         <link rel="stylesheet" href="style.css">
 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+
     </head>
     <body>
+       
         <header id='header'>
             <div id='menu-div'>
-                <span class="line-space"><img src="./images/menuButton.png" alt="menu button" class="image-size youTubeLogo"></span>
-                <img src="./images/youTubeLogo.png" alt="Youtube logo" class="youTubeLogo">
+                <span class="fas fa-bars"></span>
+                <span><img src="./images/youtube.jpeg" alt="Youtube logo" class="youTubeLogo"></span>
             </div>
+            
             <div id='search-div'>
                 <input type="search" placeholder="Search" id='search' class="image-size">
-                <span class="line-space"><img src="./images/serchButton.gif" alt="serch button"></span>
-                <span><img src="./images/microphoneIcone.gif" alt="microphone icon"></span>
+                <button class="line-space"><span class = "fas fa-search icon-size"></span></button>
+                <button id="btn"><span class="fas fa-microphone icon-size"></span></button>
             </div>
+
             <div id='notification-div'>
-                <span class="line-space"><img src="./images/videoIcon.png" alt="video icon"></span>
-                <span class="line-space"><img src="./images/gridIcon.png" alt="google grid"></span>
-                <span class="line-space"><img src="./images/bellIcon.png" alt="notifications"></span>
-                <span class="line-space"><img src="./images/profilelogo.png" alt="profile logo"></span>
+                <span class="line-space fas fa-video"></span>
+                <span class="line-space fas fa-th"></span>
+                <span class="line-space fas fa-bell"></span>
+                <span class="line-space"><img id="pic" src="./images/pic.jpg" alt="profile logo"></span>
             </div>
 
         </header>
