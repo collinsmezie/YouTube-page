@@ -71,7 +71,9 @@
     border-radius:50px;
 }
 
-
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #container {
     display: flex;
@@ -84,6 +86,12 @@
     margin: 30px 0 0 60px;
 
 
+}
+#buttons-likes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 #aside {
     margin: 30px 0 0 30px;
@@ -101,4 +109,14 @@
 
  #table {
      margin-top: 18px;
+ }
+
+ .textInBoxes {
+     display: flex;
+     flex-direction: column;
+     font-size: small;
+     margin: 0 300px 0 5px;
+ }
+ p {
+     color: dimgrey;
  }
